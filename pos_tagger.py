@@ -59,18 +59,19 @@ def main():
     
 
     while(True):
-        
+        os.system('cls' if os.name == 'nt' else 'clear')
         print('Part of Speech Tagger\n')
         test = []
-        #test.append(input('Enter sentence: '))
-        test.append('i like eating')
+        test.append(input('Enter sentence: '))
+       
         predict_tags(test, word_to_idx, model, idx_to_tag)
 
         ch = input('Continue ? Y or N\n')
         if ch == 'n' or ch == 'N':
             return
-        while(ch!= 'y' or ch!='Y'):
-            ch = input('Invalid Choice Entered')
+        while(ch!= 'y' and ch!='Y'):
+            print(ch)
+            ch = input('Invalid Choice Entered. Enter again\n')
 
 if __name__ == main():
     main()
