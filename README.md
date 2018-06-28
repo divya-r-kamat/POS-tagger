@@ -19,13 +19,18 @@ NUM - Numeral<br>**
 <img src="media/1.JPG" >
 
 ## Training Plot
-<img src="media/3.JPG" >
+<p align=center>
+  Plot after training for 10 epochs.<br>
+  <img src="media/2.JPG" >
+</p>
 
 ## Contents:
 There are two main files:
-- POS_tagger.ipynb: Step by step walkthrough the entire code. 
-- pos_tagger.py: Command line interface for directly running the model for test prediction. Use it to see model prediction for input strings.
-<img src="media/2.JPG" >
+- **POS_tagger.ipynb:** Step by step walkthrough the entire code. 
+- **pos_tagger.py:** Command line interface for directly running the model for test prediction. Use it to see model prediction for input strings.
+<p align=center>
+  <img src="media/3.JPG" >
+</p>
 
 ## Model Architecture
 It uses a bidirectional LSTM model. The model achieved a validation accuracy of 96% on validation data.
