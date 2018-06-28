@@ -22,4 +22,4 @@ It uses a bidirectional LSTM model. The model achieved a validation accuracy of 
 
 The model can be improved even further. This model was trained only for 10 epochs. Further accuracy can be improved by increasing the number of hidden state units, stacking up more layers, using pretrained word embeddings etc. 
 
-This code is inspired from [here](https://www.coursera.org/learn/language-processing).
+This code is inspired from https://www.coursera.org/learn/language-processing.
