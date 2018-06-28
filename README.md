@@ -14,6 +14,12 @@ DET - Determiner / Article
 NOUN	- Noun	<br>
 NUM - Numeral<br>**
 
+## Test Results
+
+<img src="media/1.JPG" >
+<img src="media/2.JPG" >
+<img src="media/3.JPG" >
+
 ## Model Architecture
 It uses a bidirectional LSTM model. The model achieved a validation accuracy of 96% on validation data.
 <p align=center>
