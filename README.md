@@ -1,3 +1,4 @@
+[![HitCount](http://hits.dwyl.io/susantabiswas/POS-tagger.svg)](http://hits.dwyl.io/susantabiswas/POS-tagger)
 # Part of Speech Tagger
 This notebook contains code for neural network that can tag POS in an English sentence. There are many POS tagsets available, here universal tagset has been used. The model converts the sentence to POS tags. Tags used are:
 
